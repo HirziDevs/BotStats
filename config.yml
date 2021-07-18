@@ -1,0 +1,37 @@
+# BotStats config
+# If you need help, join our discord server: https://discord.gg/9Z7zpdwATZ
+
+# Bot Info's
+token: 'Bot Token' # Put bot token here, check https://discord.dev to create and get bot token
+time: 30 # Time when the embed edited/refreshed (MUST BE A SECONDS)
+channel: 'CHANNEL ID' # Put channel id here where the embed will be sended
+type: false # Enable Mysql databases status (MUST BE 'true' OR 'false')
+
+# Target Bot
+targetbot: 'Target Bot ID' # Bot Id for the status
+
+# Embed Configuration
+embed:
+  color: 'E5BE11' # Embed Hex color here
+  title:
+    enable: false # Enable Custom Title (MUST BE 'true' OR 'false')
+    text: 'BotName Stats' # Embed Title here. Ex: PteroControl Stats
+  desc:
+    enable: false # Enable Embed Description (MUST BE 'true' OR 'false')
+    text: 'Description' # Embed Description
+  footer:
+    enable: true # Enable Embed Footer (MUST BE 'true' OR 'false')
+    text: 'By Hirzi#8701' # Embed Footer
+    
+# Status Message Configuration
+status:
+  online: ':green_circle: Online' # Message if the status is Online
+  offline: ':red_circle: Offline' # Message if the status is Offline
+
+# Databases Configuration
+mysql:
+  host: '' # Databases host url/ip
+  user: '' # Databases port
+  password: '' # Databases password
+  database: '' # Databases name
+  table: '' # Databases table
